@@ -20,7 +20,7 @@ const codeString = `const coder = {
 };`;
 
   return (
-    <div className='w-full md:h-screen md:max-h-screen flex items-center md:justify-between gap-10 md:gap-0 flex-col md:flex-row pt-20 md:pt-0'>
+    <div className='w-full flex items-center md:justify-between gap-10 md:gap-0 flex-col md:flex-row pt-20 md:py-30'>
       <div className='w-full md:w-1/2'>
         <h1 className="text-4xl md:text-5xl font-bold mb-4">Vinay Punani</h1>
         <p className="text-xl md:text-2xl mb-6">MERN Stack Developer</p>
