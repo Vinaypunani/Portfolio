@@ -44,7 +44,7 @@ const Navbar = () => {
                     })
                 }
             </div>
-            <button className='hidden md:block ml-7 border border-black hover:bg-black hover:text-background px-4 py-2 transition-colors transition-discrete duration-300 cursor-pointer'>Download CV</button>
+            <a href='/cv.pdf' download={"Resume_Vinay_Punani.pdf"} className='hidden md:block ml-7 border border-black hover:bg-black hover:text-background px-4 py-2 transition-colors transition-discrete duration-300 cursor-pointer'>Download CV</a>
 
             <div onClick={()=>setIsOpen(!isOpen)} className='flex md:hidden flex-col gap-1 z-[51]'>
                 <div className={`h-1 w-7 bg-black rounded-full transition-all duration-300 ${isOpen ? 'rotate-45 translate-y-2' : ''}`}></div>
@@ -62,7 +62,7 @@ const Navbar = () => {
                         }} key={index} href={`#${item.link}`} className={`${item.link == location ? 'border-b-[1.5px] pb-1' : ''} transition-all duration-300`}>{item.name}</a>
                     })
                 }
-                <button className='mt-4 border border-black hover:bg-black hover:text-background px-4 py-2 transition-colors duration-300 cursor-pointer'>Download CV</button>
+                <a href='/cv.pdf' download={"Resume_Vinay_Punani.pdf"} className='mt-4 border border-black hover:bg-black hover:text-background px-4 py-2 transition-colors duration-300 cursor-pointer'>Download CV</a>
             </div>
         </div>
     )

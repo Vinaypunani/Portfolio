@@ -26,7 +26,7 @@ const project = {
   myRole: 'Frontend Developer',
   description: 'Built a comprehensive GYM application. Integrated with RapidAPI for exercise data, implemented state management with Redux Toolkit, and created smooth loading states for optimal user experience using Material UI components.'
 };`,
-            title: "GTM Website",
+            title: "GYM Website",
             link: "https://go-gym-gray.vercel.app/",
             tech: "React & Material UI"
         },
