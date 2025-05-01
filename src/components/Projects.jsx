@@ -21,6 +21,18 @@ const project = {
         {
             codeString: `
 const project = {
+  name: 'AI Image Generator SaaS',
+  tools: ['MERN Stack', 'Razorpay', 'ClipDrop API', 'JWT Auth', 'Context API'],
+  myRole: 'Full Stack Developer',
+  description: 'Developed a credit-based SaaS application that allows users to generate AI images using the ClipDrop API. Integrated Razorpay for credit purchases, managed authentication via JWT, and handled global state using Context API. Built a responsive UI with React and efficiently managed backend logic with Node.js and MongoDB.'
+};`,
+title: "AI Image Generator SaaS",
+link: "https://vp-imaginary.vercel.app/",
+tech: "MERN Stack, Razorpay, ClipDrop API"
+        },
+        {
+            codeString: `
+const project = {
   name: 'GYM Website',
   tools: ['React', 'Material UI', 'RapidAPI', 'React Router', 'Redux Toolkit'],
   myRole: 'Frontend Developer',
@@ -41,7 +53,8 @@ const project = {
             title: "Movie Website",
             link: "https://vp-movies.vercel.app/",
             tech: "React & TailwindCSS"
-        }
+        },
+        
     ]
 
     return (
